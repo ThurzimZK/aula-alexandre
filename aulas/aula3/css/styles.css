@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 64px;
+  color: #fe00f5;
+}
+p {
+  font-size: 24px;
+}
+p.verde {
+  color: #09ff00;
+}
+.azul {
+  color: #0022ff;
+}
+.logo {
+  background-color: #fcfa93;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 70%;
+  width: 300px;
+  height: 200px;
+}
