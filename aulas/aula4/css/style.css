@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+    --font-padrao: 'Work Sans', sans-serif;
+    --font-destaque: 'Playfair Display', serif;
+}
+
+h1{
+    font-family: var(--font-destaque);
+}
+p{
+    font-family: var(--font-padrao);
+}
