@@ -14,3 +14,16 @@ h1{
 p{
     font-family: var(--font-padrao);
 }
+div.content strong{
+    color: #10B981;
+    font-weight: 900;
+}
+div.content {
+    font-weight: 900;
+}
+
+.container{
+    padding: 0px 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
