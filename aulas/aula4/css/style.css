@@ -7,7 +7,24 @@
     --font-padrao: 'Work Sans', sans-serif;
     --font-destaque: 'Playfair Display', serif;
 }
-
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+}
+header nav{
+    border: 1px solid #6AD480;
+    background-color: white;
+    padding: 16px 40px;
+}
+header nav a{
+    color: #10B981;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+}
 h1{
     font-family: var(--font-destaque);
 }
@@ -26,4 +43,26 @@ div.content {
     padding: 0px 10px;
     max-width: 1100px;
     margin: 0 auto;
+}
+.logo{
+    width: 117px;
+    height: 36px;
+}
+#cta{
+    display: flex;
+}
+#cta h1{
+    color: #064e3b;
+    font-weight: 900;
+    font-size: 55px;
+    padding: 200px 0;
+}
+#cta .content{
+    width: 500px;
+}
+
+#cta .img{
+    background: url(../imagens/img_header.png) no-repeat;
+    background-size: cover;
+    width: 50%;
 }
