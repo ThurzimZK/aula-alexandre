@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.container {
+  /* 1000px - 1440px */
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+.logo {
+  width: 117px;
+  height: 36px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  padding: 24px 0;
+}
+header nav{
+  position: absolute;
+  display: flex;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-around;
+  width: 100%;
+  max-width: 632px;
+  border: 1px solid #6AD4B0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px 24px;
+}
+header nav a{
+  color: #10B981;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  transition: color 0.4s;
+}
+header nav a:hover{
+  color: #064e3b;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+#cta{
+  display: flex;
+}
+#cta .content {
+  width: 50%;
+}
+#cta h1 {
+  color: #064e3b;
+  font-weight: 900;
+  font-size: 56px;
+  /* Mexer depois */
+  padding: 200px 0;
+}
+#cta h1 span {
+  color: #10b981;
+}
+#cta .img{
+  width: 50%;
+  background: url(../assets/img-cta.png) no-repeat;
+  background-size: cover;
+}
