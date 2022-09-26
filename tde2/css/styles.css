@@ -6,6 +6,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   background-color: black;
+  color: white;
 }
 a{
   text-decoration: none;
@@ -47,13 +48,13 @@ header nav a:hover{
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
-#cta{
+#sta{
   display: flex;
 }
-#cta .content {
+#sta .content {
   width: 50%;
 }
-#cta h1 {
+#sta h1 {
   color: white;
   font-weight: 300;
   font-size: 50px;
@@ -67,10 +68,7 @@ h1 {
   font-size: 15px;
   padding: 8px 25px 8px 25px;
 }
-#cta h1span {
-  color: #10b981;
-}
-#cta .img{
+#sta .img{
   width: 50%;
   background: url(../assets/img-primeira.png) no-repeat;
   background-size: cover;
@@ -85,8 +83,15 @@ h1 {
   border: 1px solid white;
   width: 250px;
 }
+#services{
+  display: flex;
+}
+#services .content {
+  width: 50%;
+}
 #h1_serv{
   padding-top: 150px;
+  padding-bottom: 70px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
@@ -94,5 +99,66 @@ h1 {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#services .right{
+  padding-left: 150px;
+}
+#services p{
+  padding-bottom: 30px;
+  text-indent: 50px;
+  color: rgb(134, 134, 134);
+}
+#services .img{
+  width: 50%;
+  background: url(../assets/img-services.jpg) no-repeat;
+  background-size: cover;
+}
+#dnv{
+  display: flex;
+  padding-top: 200px;
+}
+#dnv .content {
+  width: 50%;
+}
+#dnv h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  padding: 200px 0;
+  padding-left: 40px;
+}
+#btn{
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 25px 8px 25px;
+}
+
+#dnv .img{
+  width: 50%;
+  background: url(../assets/img-primeira.png) no-repeat;
+  background-size: cover;
+}
+
+#end{
+  display: flex;
+  margin-top: 150px;
+  background-color: #fff; 
+}
+#end .content {
+  width: 100%;
+}
+#end h1 {
+  color: rgb(41, 40, 40);
+  font-weight: 300;
+  font-size: 50px;
+  padding: 200px 0;
+  padding-left: 40px;
   
+}
+#end .img{
+  width: 50%;
+  background: url(../assets/end-features.jpg) no-repeat;
+  background-size: ;
 }
