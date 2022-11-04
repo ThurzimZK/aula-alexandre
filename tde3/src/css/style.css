@@ -83,22 +83,13 @@ header{
     text-indent: 20px;
     padding: 0px 15px;
     margin-bottom: 0px;
+    max-height: 180px;
+    overflow-y: auto;
 }
 .imagem{
     display: none;
 }
-.textinho{
-    display: none;
-}
-.textinho2{
-    display: none;
-}
-.textinho3{
-    display: none;
-}
-.textinho4{
-    display: none;
-}
+
 .tab{
     display: inline-flex;
     justify-content: center;
@@ -231,74 +222,58 @@ header{
         display: block;
         width: 60%;
     }
-    .textinho{
-        display: block;
-        position: absolute;
-        left: 65%;
-        top: 70%;
-    }
-    .textinho2{
-        display: none;
-    }
-    .textinho3{
-        display: block;
-        position: absolute;
-        left: 65%;
-        top: 80%; 
-    }
-    .textinho4{
-        display: none;
-    }
-    .tituloMob{
-       display: none;
-    }
-    .textMob{
-        display: none;
-    }
     .cortes{
         display: inline-flex;
         margin-right: 86px;
     }
-}
-@media screen and (min-width: 1100px) {
-    .textinho4{
+    .tituloMob{
+        position: absolute;
+        left: 66%;
+        top: 65%; 
+     }
+    .textMob{
         display: block;
         position: absolute;
         left: 65%;
-        top: 97%; 
+        top: 75%; 
+        max-height: 180px;
     }
-    .tituloMob{
-        display: none;
-     }
-     .textMob{
-         display: none;
-     }
+}
+@media screen and (min-width: 1100px) {
+   
      #botao{
         color: black !important;
     }
     #sobre p{
         padding: 0px 200px;  
     }
+    .tituloMob{
+        position: absolute;
+        left: 66%;
+        top: 65%; 
+     }
+    .textMob{
+        display: block;
+        position: absolute;
+        left: 65%;
+        top: 75%; 
+        max-height: 220px;
+    }
 }
 @media screen and (min-width: 1340px){
-    .textinho3{
-        display: none; 
-    }
-    .textinho2{
+    .tituloMob{
+        position: absolute;
+        left: 66%;
+        top: 70%; 
+     }
+    .textMob{
         display: block;
         position: absolute;
         left: 65%;
         top: 80%; 
+        max-height: 270px;
     }
-    .textinho4{
-        display: none;
-    }
-    .tituloMob{
-        display: none;
-     }
-     .textMob{
-         display: none;
-     }
+     
      #botao{
         color: black !important;
     }
