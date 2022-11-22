@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <script src="./js/main.js" async></script>
+</head>
+<body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
+    <main>
+        <section id="form">
+            <form id="form-cart" action="" method="post">
+                <label for="name">Nome do Produto</label>
+                <input type="text" name="name" id="name">
+                <label for="price">Valor Unitário</label>
+                <input type="text" name="price" id="price">
+                <label for="amount">Quantidade</label>
+                <input type="text" name="amount" id="amount">
+                <button type="submit">Incluir</button>
+                <button type="reset">Limpar</button>
+
+                <button type="button" id="btn-add-5x">Incluir 5x</button>
+
+                <button type="button" id="btn-add-100x">Incluir 100x</button>
+            </form>
+        </section>
+        <section id="list">
+            <table border="1" id="table-cart">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Valor Unitário</th>
+                        <th>Quantidade</th>
+                        <th>Valor Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kit Mouse e Teclado com Luizinha</td>
+                        <td>100</td>
+                        <td>5</td>
+                        <td>500</td>
+                        <td>Apagar</td>
+                    </tr>
+                    <tr>
+                        <td>Monitor</td>
+                        <td>500</td>
+                        <td>1</td>
+                        <td>500</td>
+                        <td>Apagar</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h3>Valor Total</h3>
+    </footer>
+</body>
+</html>
