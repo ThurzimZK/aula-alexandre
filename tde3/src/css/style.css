@@ -5,12 +5,12 @@ body{
 }
 header{
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: 1000  !important;
     position: fixed;
 }
 #nav{
-    display: block;
+    display: none;
 }
 .logo{
     height: 100px;
@@ -42,9 +42,13 @@ header{
 }
 #intro h1{
     font-size: 40px;
+    text-shadow: 1px 1px 0px black;
 }
 .nome{
     font-size: 50px !important;
+}
+#botao{
+    color: black !important;
 }
 .hora{
     background-color: #daa520 !important;
@@ -61,17 +65,112 @@ header{
     'GRAD' 0,
     'opsz' 48
 }
-.imagem-mob{
+#imagem-mob{
     width: 100%;
     background-size: contain;
     background-position: center;
 }
+#conteudo{
+    background-color: rgb(53, 51, 51);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.tituloMob{
+    padding-top: 10px;
+    text-align: center;
+}
+.textMob{
+    text-indent: 20px;
+    padding: 0px 15px;
+    margin-bottom: 0px;
+    max-height: 180px;
+    overflow-y: auto;
+}
+.imagem{
+    display: none;
+}
+
+.tab{
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.tab.select{
+    background-color: #262626;
+    padding: 10px;
+}
+.tab:hover{
+    background-color: #414141;
+    padding: 10px;
+}
+.tab.select:hover{
+    background-color: #414141;
+}
+#cortes{
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
+}
+#cortes h1{
+    padding-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.cortes{
+    width: 400px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+#sobre{
+    background-color: rgb(53, 51, 51);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
+}
+#sobre h1{
+    padding-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#sobre p{
+    text-indent: 20px;
+    padding: 0px 50px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+.p2{
+    padding-bottom: 25px !important;
+}
+#contato{
+    display: flex;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
+}
+#contato h1{
+    padding-top: 15px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+.icon a img{
+    padding: 10px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
 
 
-@media screen and (min-width: 780px){
+@media screen and (min-width: 833px){
     .logo{
         display: block;
-        text-align: center;
     }
     span#burguer{
         display: none;
@@ -81,7 +180,102 @@ header{
     }
     #nav{
         display: block;
-        color: white;
+        background-color: rgb(17, 17, 17);
+        margin: auto;
+        text-align: center;
     }
-
+    #nav a{
+        margin-right: 80px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    #imagem-mob{
+        display: none;
+    }
+    #intro h1{
+        margin-top: 25px;
+        margin-bottom: -30px;
+        font-size: 80px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .nome{
+        font-size: 70px !important;
+        margin-bottom: 20px !important;
+    }
+    .hora{
+        font-size: 20px !important;
+        margin-bottom: 10px;
+    }
+    #botao{
+        color: black !important;
+    }
+    .seta{
+        font-size: 30px !important;
+    }
+    #conteudo{
+        background-color: rgb(53, 51, 51);
+        color: white;
+        text-shadow: 1px 1px 0px black;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
+    }
+    .imagem{
+        display: block;
+        width: 60%;
+    }
+    .cortes{
+        display: inline-flex;
+        margin-right: 86px;
+    }
+    .tituloMob{
+        position: absolute;
+        left: 66%;
+        top: 65%; 
+     }
+    .textMob{
+        display: block;
+        position: absolute;
+        left: 65%;
+        top: 75%; 
+        max-height: 180px;
+    }
+}
+@media screen and (min-width: 1100px) {
+   
+     #botao{
+        color: black !important;
+    }
+    #sobre p{
+        padding: 0px 200px;  
+    }
+    .tituloMob{
+        position: absolute;
+        left: 66%;
+        top: 65%; 
+     }
+    .textMob{
+        display: block;
+        position: absolute;
+        left: 65%;
+        top: 75%; 
+        max-height: 220px;
+    }
+}
+@media screen and (min-width: 1340px){
+    .tituloMob{
+        position: absolute;
+        left: 66%;
+        top: 70%; 
+     }
+    .textMob{
+        display: block;
+        position: absolute;
+        left: 65%;
+        top: 80%; 
+        max-height: 270px;
+    }
+     
+     #botao{
+        color: black !important;
+    }
+    
 }

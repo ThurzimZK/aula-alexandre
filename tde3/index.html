@@ -35,18 +35,56 @@
             </ul>
         </menu>
         <nav id="nav">
-            <a href="#">Home</a>
+            <a href="#" class="tab select">Home</a>
+            <a href="#" class="tab">Cortes</a>
+            <a href="#" class="tab">Sobre</a>
+            <a href="#" class="tab">Contato</a>
         </nav>
     </header>
     <main>
         <section id="intro">
-            <h1>Venha nos conhecer</h1>
+            <h1 class="titulo">Venha nos conhecer</h1>
             <h1 class="nome">Barber Shop</h1>
-            <button class="btn btn-warning hora">Agendar Horário</button>
+            <button class="btn btn-warning hora"><a href="https://web.whatsapp.com/" id="botao" target="_blank">Agendar Horário</a></button>
             <span class="material-symbols-outlined seta">arrow_downward</span>
         </section>
         <section id="conteudo">
-            <img src="src/assets/img-main-mobile.jpg" class="imagem-mob">
+            <img src="src/assets/img-main-mobile.jpg" id="imagem-mob">
+            <img src="src/assets/img-main-desktop.jpg" class="imagem">
+            <h2 class="tituloMob">Sinta-se em Casa</h2>
+            <p class="textMob">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam debitis, illum velit architecto officiis dolor libero minus veritatis eligendi dolorem accusantium earum animi! Exercitationem quidem at libero aliquam minima? <br>
+            Natus commodi atque quo dolorem voluptates totam delectus veritatis animi, consequatur, sunt provident, vel nemo exercitationem dolor eos dignissimos tempora eum repellat vero perspiciatis sapiente earum odit ad voluptate! Cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptates eaque id, harum ab ratione hic nihil neque atque voluptatem sunt minus animi praesentium similique quisquam aliquid aspernatur fuga molestiae.</p>
+        </section>
+        <section id="cortes">
+            <h1>Nossas opções de cortes modernos</h1>
+            <img src="src/assets/americano.jpg" class="cortes">
+            <img src="src/assets/barbudo.jpg" class="cortes">
+            <img src="src/assets/blindado.jpg" class="cortes">
+            <img src="src/assets/degrade-v.jpg" class="cortes">
+            <img src="src/assets/degrade.jpg" class="cortes">
+            <img src="src/assets/fade-luzes.jpg" class="cortes">
+            <img src="src/assets/platinado.jpg" class="cortes">
+            <img src="src/assets/reflexo.jpg" class="cortes">
+        </section>
+        <section id="sobre">
+            <h1>Sobre nós</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem minus delectus unde, aliquid veniam quisquam? Vero, dolores animi minus optio doloremque est sint, nostrum adipisci necessitatibus ab maxime, nam quod!
+            Possimus eos laboriosam dolore alias praesentium, doloribus voluptate repellat, dignissimos vero, ullam sint maxime reiciendis itaque. Quam deserunt ducimus veritatis enim, magni eligendi voluptatum, pariatur unde illo dolores inventore provident.</p>
+            <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit facilis perferendis temporibus suscipit officia inventore ad neque quod laudantium architecto, quaerat aperiam dignissimos incidunt exercitationem maiores quisquam tempora? Dolore.</p>
+        </section>
+        <section id="contato">
+            <h3>Não consegui centralizar esses icones :(</h3>
+            <div class="icon">
+                <a href=""><img src="src/assets/facebook.png"></a> 
+            </div>
+            <div class="icon">
+                <a href=""><img src="src/assets/instagram.png"></a>
+            </div>
+            <div class="icon">
+                <a href=""><img src="src/assets/whatsapp.png"></a>
+            </div>
+            <h3>era pra pagina ta com js, mas ainda me falta conhecimento. MAS TENTEI :D</h3>
+            <p>a ideia era que quando eu selecionasse um dos itens do menu, os outros ficariam com display 'none' e so o selecionado com display 'block'. Vou estudar mais sobre isso</p>
         </section>
     </main>
     <script src="src/js/index.js"></script>
