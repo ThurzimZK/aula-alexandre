@@ -9,11 +9,11 @@ namespace ConsoleApp3
     class Aluno
     {
         private int matricula;
-        private String nome;
-        private String celular;
+        private string nome;
+        private string celular;
         public readonly int ativo = 1;
 
-        public Aluno(int matricula, String nome, String celular)
+        public Aluno(int matricula, string nome, string celular)
         {
             this.matricula = matricula;
             this.nome = nome;
